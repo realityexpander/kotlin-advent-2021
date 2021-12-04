@@ -1,3 +1,5 @@
+//https://adventofcode.com/2021/day/1
+
 fun main() {
     fun part1(input: List<String>): Int {
         return input.windowed(2).count { (a, b) -> a < b }
